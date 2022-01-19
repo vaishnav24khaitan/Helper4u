@@ -63,7 +63,7 @@ const AddStudent = () => {
         division,
         status,
       });
-      res.data && window.location.replace("/viewstudent");
+      res.data && window.location.replace("/");
     } catch (err) {
       setError(true);
     }
