@@ -30,7 +30,7 @@ const StudentsBox = ({students}) => {
           await axios.delete(`/student/${id}`, {
             data: { fullname: name },
           });
-          window.location.replace("/");
+          window.location.replace("/viewstudent");
         } catch (err) {}
       };
 

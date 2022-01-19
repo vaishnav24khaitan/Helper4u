@@ -63,7 +63,7 @@ const EditStudent = (params) => {
           division,
           status,
         });
-        res.data && window.location.replace("/");
+        res.data && window.location.replace("/viewstudent");
       } catch (err) {
       }
     };
@@ -167,7 +167,7 @@ const EditStudent = (params) => {
             <br></br>
             <button type="submit" className="btn btn-primary btn-block">Add Product</button>
           </form>
-          <Link to="/">return to main page</Link>
+          <Link to="/viewstudent">return to main page</Link>
         </div>
       </div>
     </div>  
